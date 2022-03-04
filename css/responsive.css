@@ -1,0 +1,823 @@
+ /* @media (min-width: 1400px){} (extra large)
+@media (min-width: 1200px) and (max-width: 1399.98px) {} (extra large)
+@media (min-width: 992px) and (max-width: 1199.98px) {}(large)
+@media (min-width: 768px) and (max-width: 991.98px) {}(medium)
+@media (min-width: 576px) and (max-width: 767.98px) {} (small)  */
+
+ /*============ X-small responsive start ==========*/
+
+ @media (max-width: 575px) {
+ 	/* menu part start */
+
+ 	.navbar-brand {
+ 		width: 180px;
+ 	}
+
+ 	.navbar-brand img {
+ 		width: 100%;
+ 	}
+
+ 	.res_btn {
+ 		font-size: 28px;
+ 		color: #fff;
+ 		height: auto;
+ 	}
+
+ 	#main_menu .navbar-toggler:focus {
+ 		box-shadow: none;
+ 	}
+
+ 	#banner_item {
+ 		padding-top: 35px;
+ 		padding-bottom: 74px;
+ 	}
+
+ 	#main_menu {
+ 		top: 35px;
+ 	}
+
+	 #main_menu ul {
+		background-color: black;
+		padding-bottom: 15px;
+		margin-top: 15px;
+	}
+
+ 	#main_menu ul li a {
+ 		display: inline-block !important;
+ 	}
+
+
+ 	#main_menu ul li .trail_btn {
+ 		padding: 10px 10px;
+ 		background-color: #fff;
+ 		color: #744fa0;
+ 	}
+
+ 	/* menu part end */
+
+ 	/* banner part start */
+ 	#banner_part .banner_item {
+ 		padding-top: 136px;
+ 		padding-bottom: 70px;
+ 	}
+
+ 	.banner_item {
+ 		text-align: left !important;
+ 	}
+
+ 	#banner_part .banner_item h1 {
+ 		font-size: 35px;
+ 	}
+
+ 	#banner_part .banner_item h2 {
+ 		font-size: 22px;
+ 		padding-top: 10px;
+ 		padding-bottom: 18px;
+
+ 	}
+
+ 	#banner_part .banner_item h2::before {
+ 		left: 0;
+ 	}
+
+ 	#banner_part .banner_item p {
+ 		width: auto;
+ 		text-align: justify;
+ 	}
+
+ 	#banner_part .banner_item a {
+ 		padding: 5px 7px 5px 37px;
+ 		font-size: 12px;
+ 		font-weight: 400;
+ 		font-family: 'Open Sans', sans-serif;
+ 		color: #353535;
+ 		background: #fff;
+ 		text-align: left;
+ 		position: relative;
+ 		border-radius: 10px;
+ 		margin-right: 5px;
+ 	}
+
+ 	#banner_part .banner_item a i {
+ 		font-size: 27px;
+ 		position: absolute;
+ 		top: 50%;
+ 		left: 6px;
+ 		transform: translateY(-50%);
+ 	}
+
+ 	#banner_part .banner_item a span {
+ 		display: block;
+ 		font-size: 16px;
+ 		font-weight: 700;
+ 		font-family: 'Raleway', sans-serif;
+ 	}
+
+ 	#banner_part .banner_slider .slick-dots {
+ 		top: auto;
+ 		position: absolute !important;
+ 		bottom: 0 !important;
+ 		left: 50% !important;
+ 		transform: translateX(-50%);
+ 		padding: 0;
+ 		text-align: center;
+ 	}
+
+ 	#banner_part .banner_slider .slick-dots li {
+ 		display: inline-block;
+ 		margin: 0 5px;
+ 	}
+
+ 	#banner_part .home {
+ 		display: none;
+ 	}
+
+ 	/* banner part end */
+
+ 	/* about part start */
+ 	#about_part {
+ 		padding-top: 0px;
+ 		padding-bottom: 0px;
+ 	}
+
+ 	#about_part .about_img img {
+ 		padding-top: 40px;
+ 	}
+
+ 	/* about part end */
+
+ 	/* features part end */
+ 	#screenshots_part {
+ 		padding-top: 25px;
+ 		padding-bottom: 20px !important;
+ 	}
+
+ 	#features_part .fatures_details .img {
+ 		display: none;
+ 	}
+
+ 	#features_part .fatures_btn {
+ 		margin-top: 25px;
+ 	}
+
+ 	#features_part .fatures_btn p {
+ 		font-size: 14px;
+ 		margin-bottom: 5px;
+ 	}
+
+ 	#features_part .fatures_btn p span {
+ 		font-size: 13px;
+ 		padding-bottom: 2px;
+ 	}
+
+ 	#features_part .fatures_btn p i {
+ 		font-size: 33px;
+ 	}
+
+ 	#features_part .fatures_details .text {
+ 		text-align: left;
+ 		margin-top: 50px;
+ 		padding-left: 0px;
+ 	}
+
+ 	#features_part .fatures_details .text p {
+ 		padding-top: 24px;
+ 		text-align: justify;
+ 	}
+
+ 	#features_part .fatures_details .text h2 {
+ 		color: #744fa0;
+ 	}
+
+ 	#features_part
+
+ 	/* features part end */
+ 	/* screenshort part end */
+ 	#screenshots_part {
+ 		padding-top: 25px;
+ 		padding-bottom: 75px;
+ 		text-align: center;
+ 	}
+
+ 	#screenshots_part .img img {
+ 		padding-top: 8px;
+ 		padding-bottom: 28px;
+ 	}
+
+ 	/* screenshort part end */
+ 	/* video part start */
+ 	.video {
+ 		padding: 70px 0;
+ 		background-attachment: fixed;
+ 	}
+
+ 	#video_part img {
+ 		padding-top: 8px;
+ 		padding-bottom: 20px;
+ 	}
+
+ 	/* video part end */
+
+ 	/*  priceing_part start */
+ 	#priceing_part {
+ 		padding-top: 20px;
+ 		padding-bottom: 50px;
+ 	}
+
+ 	#priceing_part .item {
+ 		margin-bottom: 40px;
+ 	}
+
+ 	/*  priceing_part end */
+
+ 	/* team part start */
+ 	#team_part {
+ 		padding: 0;
+ 		margin-bottom: -111px;
+ 	}
+
+ 	#team_part .item .img {
+ 		top: -100px !important;
+ 	}
+
+ 	#team_part .item {
+ 		margin-bottom: 190px;
+ 	}
+
+ 	#team_part .item .text {
+ 		bottom: -70px !important;
+ 		opacity: 1 !important;
+ 		padding: 45px 20px;
+ 	}
+
+ 	#team_part .item .img .overlay {
+ 		opacity: 1;
+ 	}
+
+ 	#team_part .item .img .overlay .icon {
+ 		width: 100%;
+ 	}
+
+ 	/* team part end */
+
+ 	/* fetback part start */
+ 	#featback_part .img_slider .item {
+ 		margin: 14px 10px;
+ 	}
+
+ 	#featback_part .featback_test_slider .item {
+ 		padding: 6px 14px;
+ 	}
+
+
+ 	#featback_part .img_slider .img {
+ 		height: 80px;
+ 		width: 80px;
+ 	}
+
+ 	#featback_part .img_slider .slick-center {
+ 		transform: scale(1.3);
+ 	}
+
+ 	#featback_part .slick-dots {
+ 		position: absolute;
+ 		bottom: -55px;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 	}
+
+ 	/* feadback part end */
+ 	/* info part start */
+ 	#info_part {
+ 		padding-top: 30px;
+ 		padding-bottom: 40px;
+ 	}
+
+ 	#info_part .text img {
+ 		margin-bottom: 30px;
+ 	}
+
+ 	/* info part end */
+
+ 	/* footer part start */
+ 	#fotter_part a i {
+ 		font-size: 20px;
+ 		color: #353535;
+ 		height: 50px;
+ 		width: 50px;
+ 	}
+
+ 	/* footer part end */
+ }
+
+ /*=========== X-small responsive end =========== */
+
+
+ /*=========== small responsive start =========== */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+ 	/* menu part start */
+ 	.navbar-brand {
+ 		width: 180px;
+ 	}
+
+ 	.navbar-brand img {
+ 		width: 100%;
+ 	}
+
+ 	.res_btn {
+ 		font-size: 30px;
+ 		color: #fff;
+ 		height: auto;
+ 	}
+
+ 	#main_menu .navbar-toggler:focus {
+ 		box-shadow: none;
+ 	}
+
+ 	#banner_item {
+ 		padding-top: 35px;
+ 		padding-bottom: 74px;
+ 	}
+
+ 	#main_menu {
+ 		top: 35px;
+ 	}
+
+ 	#main_menu ul {
+ 		background-color: black;
+ 		padding-bottom: 15px;
+ 		margin-top: 15px;
+ 	}
+
+ 	#main_menu ul li a {
+ 		display: inline-block !important;
+ 	}
+
+
+ 	#main_menu ul li .trail_btn {
+ 		padding: 10px 10px;
+ 		background-color: #fff;
+ 		color: #744fa0;
+ 	}
+
+ 	/* menu part end */
+
+ 	/* banner part start */
+ 	#banner_part .banner_item {
+ 		padding-top: 136px;
+ 		padding-bottom: 70px;
+ 	}
+
+ 	.banner_item {
+ 		text-align: left !important;
+ 	}
+
+ 	#banner_part .banner_item h1 {
+ 		font-size: 35px;
+ 	}
+
+ 	#banner_part .banner_item h2 {
+ 		font-size: 22px;
+ 		padding-top: 10px;
+ 		padding-bottom: 18px;
+
+ 	}
+
+ 	#banner_part .banner_item h2::before {
+ 		left: 0;
+ 	}
+
+ 	#banner_part .banner_item p {
+ 		width: auto;
+ 		text-align: justify;
+ 	}
+
+ 	#banner_part .banner_item a {
+ 		padding: 5px 7px 5px 37px;
+ 		font-size: 12px;
+ 		font-weight: 400;
+ 		font-family: 'Open Sans', sans-serif;
+ 		color: #353535;
+ 		background: #fff;
+ 		text-align: left;
+ 		position: relative;
+ 		border-radius: 10px;
+ 		margin-right: 5px;
+ 	}
+
+ 	#banner_part .banner_item a i {
+ 		font-size: 27px;
+ 		position: absolute;
+ 		top: 50%;
+ 		left: 6px;
+ 		transform: translateY(-50%);
+ 	}
+
+ 	#banner_part .banner_item a span {
+ 		display: block;
+ 		font-size: 16px;
+ 		font-weight: 700;
+ 		font-family: 'Raleway', sans-serif;
+ 	}
+
+ 	#banner_part .banner_slider .slick-dots {
+ 		top: auto;
+ 		position: absolute !important;
+ 		bottom: 0 !important;
+ 		left: 50% !important;
+ 		transform: translateX(-50%);
+ 		padding: 0;
+ 		text-align: center;
+ 	}
+
+ 	#banner_part .banner_slider .slick-dots li {
+ 		display: inline-block;
+ 		margin: 0 5px;
+ 	}
+
+ 	#banner_part .home {
+ 		display: none;
+ 	}
+
+ 	/* banner part end */
+
+ 	/* about part end */
+ 	#about_part {
+ 		padding-top: 0px;
+ 		padding-bottom: -1px;
+ 	}
+
+ 	#about_part .about_img img {
+ 		width: 100%;
+ 		padding-top: 120px;
+ 	}
+
+ 	/* about part end */
+
+ 	/* features part end */
+ 	#screenshots_part {
+ 		padding-top: 25px;
+ 		padding-bottom: 20px !important;
+ 	}
+
+ 	#features_part .fatures_details .img {
+ 		display: none;
+ 	}
+
+ 	#features_part .nav-link {
+ 		padding: 8px 0 !important;
+ 	}
+
+ 	#features_part .fatures_btn {
+ 		margin-top: 25px;
+ 	}
+
+ 	#features_part .fatures_btn p {
+ 		font-size: 12px;
+ 		margin-bottom: 8px;
+ 	}
+
+ 	#features_part .fatures_btn p span {
+ 		font-size: 11px;
+ 		padding-bottom: 0px;
+ 		padding-top: 2px;
+ 	}
+
+ 	#features_part .fatures_btn p i {
+ 		font-size: 30px;
+ 	}
+
+ 	#features_part .fatures_details .text {
+ 		text-align: left;
+ 		margin-top: 50px;
+ 		padding-left: 0px;
+ 	}
+
+ 	#features_part .fatures_details .text p {
+ 		padding-top: 20px;
+ 	}
+
+ 	#features_part .fatures_details .text h2 {
+ 		color: #744fa0;
+ 	}
+
+ 	#features_part
+ 	/* features part end */
+
+ 	/* screenshort part start */
+ 	#screenshots_part {
+ 		padding-top: 25px;
+ 		padding-bottom: 75px;
+ 		text-align: center;
+ 	}
+
+ 	#screenshots_part .img img {
+ 		padding-top: 8px;
+ 		padding-bottom: 28px;
+ 	}
+
+ 	/* screenshort part end */
+
+ 	/* video part start */
+ 	.video {
+ 		padding: 80px 0;
+ 		background-attachment: fixed;
+ 	}
+
+ 	#video_part img {
+ 		padding-top: 8px;
+ 		padding-bottom: 20px;
+ 	}
+
+ 	/* video part end */
+
+ 	/*  priceing_part start */
+ 	#priceing_part {
+ 		padding-top: 20px;
+ 		padding-bottom: 50px;
+ 	}
+
+ 	#priceing_part .item {
+ 		margin-bottom: 40px;
+ 	}
+
+ 	#priceing_part .common_hedding {
+ 		font-size: 20px;
+ 		font-weight: 700;
+ 		font-family: 'Raleway', sans-serif;
+ 		color: #353535;
+ 		text-transform: uppercase;
+ 	}
+
+ 	/*  priceing_part end */
+
+ 	/* team part start */
+ 	#team_part {
+ 		padding: 0;
+ 		margin-bottom: -111px;
+ 	}
+
+ 	#team_part .item .img {
+ 		top: -100px !important;
+ 	}
+
+ 	#team_part .item {
+ 		margin-bottom: 190px;
+ 	}
+
+ 	#team_part .item .text {
+ 		bottom: -70px !important;
+ 		opacity: 1 !important;
+ 		padding: 20px 20px;
+ 	}
+
+
+ 	#team_part .item .img .overlay {
+ 		opacity: 1;
+ 	}
+
+ 	#team_part .item .img .overlay .icon {
+ 		width: 100%;
+ 	}
+
+ 	/* team part end */
+
+ 	/* fetback part start */
+ 	#featback_part .img_slider .item {
+ 		margin: 14px 10px;
+ 	}
+
+ 	#featback_part .featback_test_slider .item {
+ 		padding: 6px 14px;
+ 	}
+
+
+ 	#featback_part .img_slider .img {
+ 		height: 80px;
+ 		width: 80px;
+ 	}
+
+ 	#featback_part .img_slider .slick-center {
+ 		transform: scale(1.3);
+ 	}
+
+ 	#featback_part .slick-dots {
+ 		position: absolute;
+ 		bottom: -55px;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 	}
+
+ 	/* feadback part end */
+ 	/* info part start */
+ 	#info_part {
+ 		padding-top: 30px;
+ 		padding-bottom: 40px;
+ 	}
+
+ 	#info_part .text img {
+ 		margin-bottom: 30px;
+ 	}
+
+ 	/* info part end */
+
+ 	/* footer part start */
+ 	#fotter_part a i {
+ 		font-size: 20px;
+ 		color: #353535;
+ 		height: 50px;
+ 		width: 50px;
+ 	}
+
+ }
+
+
+ /*=========== small responsive end=========== */
+
+ /*=========== medium responsive start=========== */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+ 	/* menu part start */
+ 	#main_menu ul li a {
+ 		color: #fff;
+ 		font-size: 14px;
+ 		font-weight: 400;
+ 		font-family: 'Open Sans', sans-serif;
+ 		margin-left: 17px;
+ 		transition: 0.4s;
+ 	}
+
+ 	.navbar-brand img {
+ 		width: 140px;
+ 	}
+
+ 	#main_menu .spc_btn {
+ 		padding: 7px 14px !important;
+ 		background: #744fa0;
+ 		border-radius: 5px;
+ 		font-weight: 700;
+ 	}
+
+ 	/* menu part end */
+
+ 	/* banner part start */
+ 	#banner_part .banner_text {
+ 		margin-right: 10px;
+ 	}
+
+ 	/* banner part end */
+
+ 	/* features part start */
+ 	#features_part .fatures_btn {
+ 		margin-top: 25px;
+ 	}
+
+ 	#features_part .fatures_btn p {
+ 		font-size: 14px;
+ 		margin-bottom: 5px;
+ 	}
+
+ 	#features_part .fatures_btn p span {
+ 		font-size: 13px;
+ 		padding-bottom: 2px;
+ 	}
+
+ 	#features_part .fatures_btn p i {
+ 		font-size: 33px;
+ 	}
+
+ 	#features_part .fatures_details .details {
+ 		align-items: center;
+ 	}
+
+ 	#features_part .details img {
+ 		width: 155px;
+ 	}
+
+ 	#features_part .fatures_details .img {
+ 		padding-left: 0px !important;
+ 	}
+
+ 	#features_part .common_hedding {
+ 		font-size: 18px;
+ 	}
+
+ 	#features_part .common_para {
+ 		font-size: 13px;
+ 	}
+
+ 	#features_part .fatures_details .text {
+ 		margin-top: 60px;
+ 	}
+
+ 	#features_part .fatures_btn p span {
+ 		padding-top: 2px;
+ 	}
+
+ 	/* features part end */
+
+ 	/* video part start */
+ 	.video {
+ 		padding: 120px 0;
+ 		background-attachment: fixed;
+ 	}
+
+ 	#video_part img {
+ 		padding-top: 8px;
+ 		padding-bottom: 20px;
+ 	}
+
+ 	/* video part end */
+
+ 	/*  priceing_part start */
+ 	#priceing_part {
+ 		padding-top: 20px;
+ 		padding-bottom: 50px;
+ 	}
+
+ 	#priceing_part .item {
+ 		margin-bottom: 40px;
+ 	}
+
+ 	#priceing_part .common_hedding {
+ 		font-size: 20px;
+ 		font-weight: 700;
+ 		font-family: 'Raleway', sans-serif;
+ 		color: #353535;
+ 		text-transform: uppercase;
+ 	}
+
+ 	/*  priceing_part end */
+
+ 	.team_part .team_item .text p {
+ 		padding: 0;
+ 	}
+
+ 	.team_part .team_item .text {
+ 		padding: 30px 0 10px 0;
+ 	}
+
+ 	.team_part .team_item:hover .text {
+ 		bottom: -76px;
+ 	}
+
+ 	.feadback_part .img_slider .item .img {
+ 		margin: 0 auto;
+ 	}
+
+
+ 	#team_part .item .text {
+ 		padding: 8px 20px;
+ 	}
+
+ }
+ /*=========== medium responsive end=========== */
+
+ /*=========== large responsive end=========== */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ /* banner part start */
+	#banner_part .banner_text {
+		margin-right: 25px;
+	}
+ /* banner part end */
+
+ /* features part start */
+ #features_part .fatures_btn {
+	margin-top: 25px;
+}
+
+#features_part .fatures_btn p {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+#features_part .fatures_btn p span {
+	font-size: 13px;
+	padding-bottom: 2px;
+}
+
+#features_part .fatures_btn p i {
+	font-size: 33px;
+}
+
+#features_part .fatures_details .details {
+	align-items: center;
+}
+/* features part end */
+
+/* price part start */
+#priceing_part .common_hedding {
+	font-size: 18px;
+}
+/* price part end */
+
+
+}
+ /*=========== large responsive end=========== */
+ /*=========== extra large responsive start ========== */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+	 
+ } 
+ /*=========== extra large responsive end=========== */
